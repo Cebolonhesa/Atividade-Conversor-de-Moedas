@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de Real para Dólar</h1>
+        <div class="converter">
+            <label for="real">Valor em Reais (BRL):</label>
+            <input type="number" id="real" placeholder="Insira o valor em Reais">
+            
+            <button onclick="converterMoeda()">Converter</button>
+            
+            <p>Valor em Dólares (USD): <span id="resultado">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
